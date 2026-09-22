@@ -1,0 +1,6 @@
+Starting Nmap 7.991 ( https://nmap.org ) at 2026-09-22 14:02 +0300
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh-brute:
+|   Accounts: No valid accounts found
+|_  Statistics: Performed 38 guesses in 91 seconds, average tps: 0.4
