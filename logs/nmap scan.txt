@@ -1,1 +1,11 @@
+Starting Nmap 7.991 ( https://nmap.org ) at 2026-09-22 13:46 +0300
+Nmap scan report for 192.168.2.1
+Host is up (0.0052s latency).
+
+PORT     STATE SERVICE
+22/tcp   open  ssh (Dropbear sshd 2012.55)
+53/tcp   open  domain (Mikrotik dnsd)
+80/tcp   open  http (TP-LINK TD-W8968 http admin)
+1900/tcp open  upnp (Portable SDK for UPnP 1.6.19)
+MAC Address: 1C:3B:F3:0B:EB:F0 (TP-Link Technologies)
 
