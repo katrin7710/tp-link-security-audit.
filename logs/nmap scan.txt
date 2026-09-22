@@ -7,5 +7,5 @@ PORT     STATE SERVICE
 53/tcp   open  domain (Mikrotik dnsd)
 80/tcp   open  http (TP-LINK TD-W8968 http admin)
 1900/tcp open  upnp (Portable SDK for UPnP 1.6.19)
-MAC Address: 1C:3B:F3:0B:EB:F0 (TP-Link Technologies)
+MAC Address: 1C:3B:XX:XX:EB:F0 (TP-Link Technologies)
 
