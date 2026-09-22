@@ -8,9 +8,9 @@
 ---
 
 ##  Target & Environment
-* **Target Device:** TP-Link TD-W8968 Home Gateway (`192.168.2.1`)
-* **Target MAC:** `1C:3B:F3:0B:EB:F0`
-* **Auditor System:** Windows 10 Host (`192.168.2.113`, Wi-Fi)
+* **Target Device:** TP-Link TD-W8968 Home Gateway (`192.168.x.1`)
+* **Target MAC:** `1C:3B:XX:0B:XX:F0`
+* **Auditor System:** Windows 10 Host (`192.168.x.113`, Wi-Fi)
 * **Tooling:** Nmap 7.991, Windows PowerShell, OpenSSH Client
 
 ---
@@ -20,7 +20,7 @@
 ### 1. Reconnaissance & Service Enumeration
 Проведено сканирование сетевых портов и определение версий запущенных служб:
 ```powershell
-nmap -p 22,53,80,1900 -sV 192.168.2.1
+nmap -p 22,53,80,1900 -sV 192.168.x.1
 
 ---
 
